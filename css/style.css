@@ -58,7 +58,8 @@ header ul li a:hover {
 .form-container .search-bar .search-bar-text {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   height: 45px;
   border: 1px solid rgba(60, 64, 67, 0.25);
   border-radius: 30px;
@@ -132,49 +133,54 @@ header ul li a:hover {
 footer {
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
-  background-color: #F2F2F2;
-  color: #70757A;
-  font-size: 0.9rem;
 }
 footer .footer-country {
-  width: 100%;
-  padding: 0.5rem 1rem;
   display: flex;
+  background-color: #F2F2F2;
+  color: #9A757A;
+  padding: 0 1rem;
 }
 footer .other-setting {
-  border-top: 1px solid #DADCE0;
-  width: 100%;
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #F2F2F2;
+  border: 1px solid rgba(60, 64, 67, 0.15);
 }
 footer .other-setting .first-setting {
-  padding: 0.5rem 0;
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
-  margin: 0 auto 0 0;
+  padding: 1rem 1rem;
+  margin: 0;
 }
 footer .other-setting .first-setting li {
-  margin: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
 }
 footer .other-setting .first-setting li a {
+  color: #9A757A;
   text-decoration: none;
-  color: #70757A;
 }
 footer .other-setting .first-setting li a:hover {
   text-decoration: underline;
 }
 footer .other-setting .second-setting {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
-  padding: 0.5rem 0;
-  margin: 0 0.5rem 0 auto;
+  padding: 1rem 1rem;
+  margin: 0;
 }
 footer .other-setting .second-setting li {
-  margin: 0.5rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
 }
 footer .other-setting .second-setting li a {
+  color: #9A757A;
   text-decoration: none;
-  color: #70757A;
 }
 footer .other-setting .second-setting li a:hover {
   text-decoration: underline;

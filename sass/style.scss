@@ -62,7 +62,8 @@ header{
         .search-bar-text{
             display: flex;
             align-items: center;
-            width: 100%;
+            width: 90%;
+            margin: 0 auto;
             height: 45px;
             border: $btnHover;
             border-radius: 30px;
@@ -140,54 +141,56 @@ header{
 footer{
     position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
-    background-color: #F2F2F2;
-    color: #70757A;
-    font-size: 0.9rem;
     .footer-country{
-        width: 100%;
-        padding: $btnPadding;
         display: flex;
-      
+        background-color: #F2F2F2;
+        color: #9A757A;
+        padding: 0 1rem;
     }
     .other-setting{
-        border-top: 1px solid #DADCE0;
-        width: 100%;
-        display: flex;
-        .first-setting{
-                padding: 0.5rem 0;
-                display: flex;
-                list-style: none;
-                margin: 0 auto 0 0;
-                li{
-                    margin:  $btnPadding;
-                    a{
-                        text-decoration: none;
-                        color: #70757A;
-                    }
-                    a:hover{
-                        text-decoration: underline;
-                    }
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap; 
+       background: #F2F2F2;
+       border: 1px solid rgba($color, $alpha: 0.15);
+       .first-setting{
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 1rem 1rem;
+            margin: 0;
+            li{ 
+                margin-top: 0.5rem;
+                margin-right: 1rem;
+                a{
+                    color: #9A757A;
+                    text-decoration: none;
                 }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+           
         }
         .second-setting{
             display: flex;
+            flex-wrap: wrap;
             list-style: none;
-            padding: 0.5rem 0;
-            margin: 0 0.5rem 0 auto;
+            padding: 1rem 1rem;
+            margin: 0;
             li{
-                margin:$btnMargin;
+                margin-top: 0.5rem;
+                margin-right: 1rem;
                 a{
+                    color: #9A757A;
                     text-decoration: none;
-                    color: #70757A;
                 }
                 a:hover{
-                    text-decoration: underline; 
-                    
+                    text-decoration: underline;
                 }
             }
-            
-
         }
     }
 }
