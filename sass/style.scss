@@ -194,3 +194,26 @@ footer{
         }
     }
 }
+@media (max-width:400px) {
+    header{
+        display: $flexible;
+        justify-content: center;
+        align-items: center;
+        font-size: .9rem;
+            ul{
+                list-style: none;
+                padding: 0;
+                li{
+                    padding: 0 0.5rem;
+                    display: inline-block;
+                    a{
+                        text-decoration: none;
+                        color: $color;
+                    }   
+                    a:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+    }
+}

@@ -186,4 +186,28 @@ footer .other-setting .second-setting li a:hover {
   text-decoration: underline;
 }
 
+@media (max-width: 400px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  header ul {
+    list-style: none;
+    padding: 0;
+  }
+  header ul li {
+    padding: 0 0.5rem;
+    display: inline-block;
+  }
+  header ul li a {
+    text-decoration: none;
+    color: #3C4043;
+  }
+  header ul li a:hover {
+    text-decoration: underline;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
